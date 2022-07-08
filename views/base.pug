@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Vivek Dance Academy 
+    block scripts
+    block style 
+  body
+    nav#navbar.top 
+      ul 
+        div#logo 
+          img(src="/static/img/logo.png")
+          | Vibe 
+        li.item #[a(href="/") Home]
+        li.item #[a(href="/about") About]
+        li.item #[a(href="/") Services]
+        li.item #[a(href="/") Class Info]
+        li.item #[a(href="/contact") Contact Us]
+    block content
+    footer#footer 
+        div Copyright © Vivek (VibeDanceAcademy)
+        div All right reserved

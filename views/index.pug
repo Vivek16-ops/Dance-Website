@@ -1,0 +1,58 @@
+doctype html
+html
+  head
+    title Vivek Dance Academy 
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top 
+     ul 
+        div#logo 
+          img(src="/static/img/logo.png")
+          | Vibe 
+        li.item #[a(href="/") Home]
+        li.item #[a(href="/") About]
+        li.item #[a(href="/") Services]
+        li.item #[a(href="/") Class Info]
+        li.item #[a(href="/") Contact Us]
+
+    section#introSection 
+        div Welcome to Vibe Dance Academy 
+        div.small  Eat Sleep Dance Repeat
+    
+    section#missionSection 
+        h2 Our Mission
+        div.card 
+          h3 Dance Perfection
+          div.cardbox 
+            div.card-img 
+              img(src="/static/img/1.png") 
+            div.card-content 
+              p This is the best gym of Ranchi Jharkhand
+        div.card 
+          h3 Dance the way you like 
+          div.cardbox 
+            div.card-img 
+              img(src="/static/img/2.png") 
+            div.card-content 
+              p This is the best gym of Ranchi Jharkhand
+        div.card 
+          h3 Expert Teaching 
+          div.cardbox 
+            div.card-img 
+              img(src="/static/img/3.png") 
+            div.card-content 
+              p This is the best gym of Ranchi Jharkhand
+
+    section#sponsorSection 
+        h2 Our Sponsors
+        div#sponsor 
+          img(src="/static/img/client1.png", alt="Sposnors image",Class="spimage")
+          img(src="/static/img/client2.jpg", alt="Sposnors image",Class="spimage")
+          img(src="/static/img/client3.png", alt="Sposnors image",Class="spimage")
+    
+    footer#footer 
+        div Copyright © Vivek (VibeDanceAcademy)
+        div All right reserved
+    script
+      include ../static/index.js

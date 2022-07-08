@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Kanit:wght@300&family=Ubuntu:ital@1&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    margin: 0px 14px;
+    margin-right: 15px;
+}
+#logo img{
+    height: 37px;
+    filter: invert(1);
+}
+
+#navbar {
+    background-color: #005683;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 5px 4px;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 7px 11px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: white;
+}
+
+#navbar li a:hover {
+    color: black;
+}
+
+#introSection {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background: center / cover no-repeat url("/static/danceimage.jpg");
+    height: 300px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    font-size: 33px;
+}
+
+.small {
+    font-style: italic;
+    font-size: 27px;
+    font-family: 'Dancing Script', cursive;
+    color: #f27373;
+}
+
+#missionSection {
+    width: 78%;
+    background-color: white;
+    font-family: 'Kanit', sans-serif;
+    height: 239px;
+    margin: auto;
+    display: block;
+}
+
+#missionSection h2 {
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: black;
+    padding: 2px 0px;
+    text-decoration: underline;
+}
+
+.card {
+    border: 2px solid black;
+    display: inline-table;
+    border-radius: 10px;
+    margin: 5px 6px;
+    padding: 4px;
+    width: 247px;
+    height: 169px;
+    background-color: #f0f0f0;
+}
+
+.card h3 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Kanit', sans-serif;
+}
+.cardbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+}
+.card-img {
+    height: 94px;
+    padding: 0px 7px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content p{
+    font-size: 13px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#sponsorSection {
+    background-color: #fbc2c6;
+    height: 188px;
+}
+
+#sponsorSection h2 {
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: black;
+    padding: 2px 0px;
+    text-decoration: underline;
+}
+#sponsor {
+    display: flex;
+    align-content: revert;
+    justify-content: space-evenly;
+    height: 133px;
+    align-items: center;
+}
+#sponsor img{
+    height: 86px;
+}
+
+#footer {
+    height: 44px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+}
